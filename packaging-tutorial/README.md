@@ -12,3 +12,5 @@ direktori kerja.
 Berkas asli proyek ini dapat diperoleh dari repositori git Debian:
 
     $ git clone git://git.debian.org/collab-maint/packaging-tutorial
+
+Versi web: (http://anonscm.debian.org/gitweb/?p=collab-maint/packaging-tutorial.git)
