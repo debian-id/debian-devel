@@ -1,0 +1,10 @@
+PO4A-HEADER:mode=before;position=\\end{document};beginboundary=NoT_In_ThE_DocUMEnt
+
+\section*{Alih Bahasa}
+\begin{frame}{Alih Bahasa}
+ Izharul Haq & Nama Anda
+ \hbr
+
+ Jika Anda menemukan kesalahan pada terjemahan ini, silahkan kirimkan email ke
+ \href{mailto:debian-l10n-indonesian@lists.debian.org}{\texttt{Tim Penerjemah Debian Indonesia}}.
+\end{frame}
