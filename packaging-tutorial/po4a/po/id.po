@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packaging-tutorial 0.16\n"
 "POT-Creation-Date: 2015-12-26 21:31+0100\n"
-"PO-Revision-Date: 2016-08-02 01:05+0700\n"
+"PO-Revision-Date: 2016-08-02 02:56+0700\n"
 "Last-Translator: Izharul Haq <atoz.chevara@yahoo.com>\n"
 "Language-Team: Debian Indonesia Translator <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -3809,7 +3809,7 @@ msgstr ""
 #: packaging-tutorial.tex:1670 packaging-tutorial.tex:1817
 #: packaging-tutorial.tex:1859 packaging-tutorial.tex:1907
 msgid "Step by step\\ldots"
-msgstr "Step by step\\ldots"
+msgstr "Langkah-langkah\\ldots"
 
 #. type: itemize
 #: packaging-tutorial.tex:1670
@@ -3873,7 +3873,7 @@ msgstr ""
 #: packaging-tutorial.tex:1697 packaging-tutorial.tex:1876
 #: packaging-tutorial.tex:1918
 msgid "Step by step\\ldots (2)"
-msgstr "Step by step\\ldots (2)"
+msgstr "Langkah-langkah\\ldots (2)"
 
 #. type: itemize
 #: packaging-tutorial.tex:1697
@@ -3950,7 +3950,7 @@ msgstr "Better: use \\textbf{pbuilder} to build in a clean environment"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1729
 msgid "Step by step\\ldots (3)"
-msgstr "Step by step\\ldots (3)"
+msgstr "Langkah-langkah\\ldots (3)"
 
 #. type: itemize
 #: packaging-tutorial.tex:1729
@@ -4037,7 +4037,7 @@ msgstr "\\texttt{quilt refresh}"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1758 packaging-tutorial.tex:1771
 msgid "Step by step\\ldots (4)"
-msgstr "Step by step\\ldots (4)"
+msgstr "Langkah-langkah\\ldots (4)"
 
 #. type: itemize
 #: packaging-tutorial.tex:1758
