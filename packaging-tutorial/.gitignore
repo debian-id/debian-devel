@@ -6,5 +6,6 @@
 *.snm
 *.toc
 *.vrb
+figs/openlogo-nd.pdf
 *.pdf_FAILED
 *.*.tex
