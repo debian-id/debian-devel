@@ -1,0 +1,11 @@
+*.aux
+*.log
+*.mk
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.pdf
+*.pdf_FAILED
+*.*.tex
