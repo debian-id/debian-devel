@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packaging-tutorial 0.16\n"
 "POT-Creation-Date: 2015-12-26 21:31+0100\n"
-"PO-Revision-Date: 2016-08-02 02:56+0700\n"
+"PO-Revision-Date: 2016-08-04 16:59+0700\n"
 "Last-Translator: Izharul Haq <atoz.chevara@yahoo.com>\n"
 "Language-Team: Debian Indonesia Translator <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -64,13 +64,13 @@ msgstr "Tentang panduan ini"
 msgid ""
 "Goal: \\textbf{tell you what you really need to know about Debian packaging}"
 msgstr ""
-"Tujuan: \\textbf{memberikan Anda pengetahuan penting untuk membuat paket "
+"Tujuan: \\textbf{memberikan Anda pengetahuan penting tentang membuat paket "
 "Debian}"
 
 #. type: itemize
 #: packaging-tutorial.tex:52
 msgid "Modify existing packages"
-msgstr "Modifikasi paket yang telah ada"
+msgstr "Memodifikasi paket yang telah ada"
 
 #. type: itemize
 #: packaging-tutorial.tex:52
@@ -90,7 +90,7 @@ msgstr "Menjadi pengguna mahir Debian"
 #. type: itemize
 #: packaging-tutorial.tex:52
 msgid "Covers the most important points, but is not complete"
-msgstr "Ini mencakup aspek yang paling penting, tetapi tidak lengkap"
+msgstr "Ini mencakup aspek yang paling penting, namun tidaklah lengkap"
 
 #. type: itemize
 #: packaging-tutorial.tex:52
@@ -139,12 +139,13 @@ msgstr "1st major distro developed ``openly in the spirit of GNU''"
 msgid ""
 "\\textbf{Non-commercial}, built collaboratively by over 1,000 volunteers"
 msgstr ""
-"\\textbf{Non-commercial}, built collaboratively by over 1,000 volunteers"
+"\\textbf{Tidak-komersil}, dibangun secara kolaborasi oleh lebih dari 1,000 "
+"relawan"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
 msgid "3 main features:"
-msgstr "3 main features:"
+msgstr "3 fitur utama:"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
@@ -152,8 +153,8 @@ msgid ""
 "\\textbf{Quality} -- culture of technical excellence\\\\ {\\small\\sl We "
 "release when it's ready}"
 msgstr ""
-"\\textbf{Quality} -- culture of technical excellence\\\\ {\\small\\sl We "
-"release when it's ready}"
+"\\textbf{Quality} -- culture of technical excellence\\\\ {\\small\\sl Kami "
+"rilis bila sudah selesai}"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
@@ -161,8 +162,8 @@ msgid ""
 "\\textbf{Freedom} -- devs and users bound by the \\textsl{Social Contract}\\"
 "\\ Promoting the culture of Free Software since 1993"
 msgstr ""
-"\\textbf{Freedom} -- devs and users bound by the \\textsl{Social Contract}\\"
-"\\ Promoting the culture of Free Software since 1993"
+"\\textbf{Freedom} -- devs and users bound by the \\textsl{Kontrak Sosial}\\"
+"\\ Mempromosikan budaya Free Software sejak 1993"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
@@ -171,7 +172,7 @@ msgid ""
 "open decision-making process (\\textsl{do-ocracy} + \\textsl{democracy})"
 msgstr ""
 "\\textbf{Independence} -- no (single) company babysitting Debian\\\\ And "
-"open decision-making process (\\textsl{do-ocracy} + \\textsl{democracy})"
+"open decision-making process (\\textsl{do-ocracy} + \\textsl{demokrasi})"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
@@ -186,7 +187,7 @@ msgstr "paket Debian"
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "\\textbf{.deb} files (binary packages)"
-msgstr "\\textbf{.deb} files (binary packages)"
+msgstr "berkas \\textbf{.deb} (paket binari)"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
@@ -209,18 +210,18 @@ msgid ""
 "30,000 binary packages in Debian\\\\ $\\rightarrow$ most of the available "
 "free software is packaged in Debian!"
 msgstr ""
-"30,000 binary packages in Debian\\\\ $\\rightarrow$ most of the available "
-"free software is packaged in Debian!"
+"30,000 paket binari di Debian\\\\ $\\rightarrow$ most of the available free "
+"software is packaged in Debian!"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "For 12 ports (architectures), including 2 non-Linux (Hurd; KFreeBSD)"
-msgstr "For 12 ports (architectures), including 2 non-Linux (Hurd; KFreeBSD)"
+msgstr "Untuk 12 ports (arsitektur), termasuk 2 non-Linux (Hurd; KFreeBSD)"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "Also used by 120 Debian derivative distributions"
-msgstr "Also used by 120 Debian derivative distributions"
+msgstr "Digunakan oleh 120 distribusi turunan Debian"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:108 packaging-tutorial.tex:133
@@ -230,7 +231,7 @@ msgstr "Format paket Deb"
 #. type: itemize
 #: packaging-tutorial.tex:133
 msgid "\\texttt{.deb} file: an \\texttt{ar} archive"
-msgstr "\\texttt{.deb} file: an \\texttt{ar} archive"
+msgstr "berkas \\texttt{.deb}: sebuah \\texttt{ar} arsip"
 
 #. type: lstlisting
 #: packaging-tutorial.tex:133
@@ -267,14 +268,14 @@ msgid ""
 "\\texttt{\\textbf{control}, md5sums, (pre|post)(rm|inst), triggers, shlibs}, "
 "\\ldots}"
 msgstr ""
-"\\texttt{control.tar.gz}: metadata about the package\\\\ {\\small "
+"\\texttt{control.tar.gz}: metadata tentang paket\\\\ {\\small "
 "\\texttt{\\textbf{control}, md5sums, (pre|post)(rm|inst), triggers, shlibs}, "
 "\\ldots}"
 
 #. type: itemize
 #: packaging-tutorial.tex:133
 msgid "\\texttt{data.tar.gz}: data files of the package"
-msgstr "\\texttt{data.tar.gz}: data files of the package"
+msgstr "\\texttt{data.tar.gz}: berkas data dari paket"
 
 #. type: itemize
 #: packaging-tutorial.tex:133
@@ -283,19 +284,19 @@ msgid ""
 "\\url{http://tldp.org/HOWTO/html\\_single/Debian-Binary-Package-Building-"
 "HOWTO/}}"
 msgstr ""
-"You could create your \\texttt{.deb} files manually\\\\ {\\footnotesize "
+"Anda dapat membuat berkas \\texttt{.deb} secara manual\\\\ {\\footnotesize "
 "\\url{http://tldp.org/HOWTO/html\\_single/Debian-Binary-Package-Building-"
 "HOWTO/}}"
 
 #. type: itemize
 #: packaging-tutorial.tex:133
 msgid "But most people don't do it that way"
-msgstr "But most people don't do it that way"
+msgstr "Tapi kebanyakan orang tidak melakukannya dengan cara itu"
 
 #. type: textbf{#1}
 #: packaging-tutorial.tex:133
 msgid "This tutorial: create Debian packages, the Debian way"
-msgstr "This tutorial: create Debian packages, the Debian way"
+msgstr "Panduan ini: membuat paket Debian, cara Debian"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:153
@@ -310,7 +311,7 @@ msgstr "Sebuah sistem Debian (atau Ubuntu) (dengan akses root)"
 #. type: itemize
 #: packaging-tutorial.tex:153
 msgid "Some packages:"
-msgstr "Some packages:"
+msgstr "Paket lainnya:"
 
 #. type: itemize
 #: packaging-tutorial.tex:153
@@ -356,7 +357,7 @@ msgstr ""
 #. type: frame{#2}
 #: packaging-tutorial.tex:168
 msgid "General packaging workflow"
-msgstr "General packaging workflow"
+msgstr "Workflow pemaketan secara umum"
 
 #. 	\draw[arr,->] (bin) -- (-1,-6) node[pos=0.5,left] {upload (\textttc{dput})};
 #.  hack hack hack
@@ -392,10 +393,10 @@ msgstr ""
 "\\_make}; \\draw[arr,->] (da) -- (sp) node[pos=0.5,left,command] {apt-get "
 "source}; \\draw[arr,->] (www) -- (sp) node[pos=0.5,left,command] {dget}; "
 "\\draw[arr,->] (sp) -- (bin) node[pos=0.5,right,text width=6cm] "
-"{\\textttc{debuild} (build and test with \\textttc{lintian}) or "
+"{\\textttc{debuild} (bangun dan uji dengan \\textttc{lintian}) atau "
 "\\textttc{dpkg-buildpackage}}; \\draw[arr,->] (bin) -- (1,-6) node[pos=0.5,"
-"right] {install (\\textttc{debi})}; \\draw[transparent] (bin) -- (-1,-6) "
-"node[pos=0.5,left,opaque] {upload (\\textttc{dput})}; \\draw[arr,->,rounded "
+"right] {pasang (\\textttc{debi})}; \\draw[transparent] (bin) -- (-1,-6) "
+"node[pos=0.5,left,opaque] {unggah (\\textttc{dput})}; \\draw[arr,->,rounded "
 "corners] (bin) -- (-1,-6) -- (-4.5,-6) -- (-4.5,0) -- (da); "
 "\\useasboundingbox (-4,-6) rectangle (6,0);"
 
@@ -418,9 +419,9 @@ msgid ""
 "recommends devscripts fakeroot}}"
 msgstr ""
 "Pasang paket yang dibutuhkan untuk membangun paket dash, dan devscripts\\\\ "
-"{\\texttt{sudo apt-get build-dep dash}\\\\ (requires \\texttt{deb-src} lines "
-"in \\texttt{/etc/apt/sources.list})}\\\\ {\\texttt{sudo apt-get install -{}-"
-"no-install-recommends devscripts fakeroot}}"
+"{\\texttt{sudo apt-get build-dep dash}\\\\ (membutuhkan baris \\texttt{deb-"
+"src} pada \\texttt{/etc/apt/sources.list})}\\\\ {\\texttt{sudo apt-get "
+"install -{}-no-install-recommends devscripts fakeroot}}"
 
 #. type: enumerate
 #: packaging-tutorial.tex:205
@@ -459,7 +460,7 @@ msgstr "Periksa apakah berjalan dengan baik"
 #. type: itemize
 #: packaging-tutorial.tex:218
 msgid "There are some new \\texttt{.deb} files in the parent directory"
-msgstr "There are some new \\texttt{.deb} files in the parent directory"
+msgstr "Menghasilkan berkas \\texttt{.deb} baru pada direktori diatasnya"
 
 #. type: enumerate
 #: packaging-tutorial.tex:218
@@ -698,8 +699,8 @@ msgid ""
 "Download the upstream source\\\\ (\\textsl{upstream source} = the one from "
 "the software's original developers)"
 msgstr ""
-"Download the upstream source\\\\ (\\textsl{upstream source} = the one from "
-"the software's original developers)"
+"Unduh upstream source\\\\ (\\textsl{upstream source} = salah satu dari "
+"perangkat lunak pengembang)"
 
 #. type: itemize
 #: packaging-tutorial.tex:331
@@ -707,13 +708,13 @@ msgid ""
 "Rename to \\texttt{<\\textsl{source\\_package}>\\_<\\textsl{upstream"
 "\\_version}>.orig.tar.gz}\\\\ (example: \\texttt{simgrid\\_3.6.orig.tar.gz})"
 msgstr ""
-"Rename to \\texttt{<\\textsl{source\\_package}>\\_<\\textsl{upstream"
-"\\_version}>.orig.tar.gz}\\\\ (example: \\texttt{simgrid\\_3.6.orig.tar.gz})"
+"Ubah nama ke \\texttt{<\\textsl{source\\_package}>\\_<\\textsl{upstream"
+"\\_version}>.orig.tar.gz}\\\\ (contoh: \\texttt{simgrid\\_3.6.orig.tar.gz})"
 
 #. type: itemize
 #: packaging-tutorial.tex:331
 msgid "Untar it"
-msgstr "Untar it"
+msgstr "Ekstrak"
 
 #. type: itemize
 #: packaging-tutorial.tex:331
@@ -721,8 +722,8 @@ msgid ""
 "Rename the directory to \\texttt{<\\textsl{source\\_package}>-<"
 "\\textsl{upstream\\_version}>}\\\\ (example: \\texttt{simgrid-3.6})"
 msgstr ""
-"Rename the directory to \\texttt{<\\textsl{source\\_package}>-<"
-"\\textsl{upstream\\_version}>}\\\\ (example: \\texttt{simgrid-3.6})"
+"Ubah nama direktori ke \\texttt{<\\textsl{source\\_package}>-<"
+"\\textsl{upstream\\_version}>}\\\\ (contoh: \\texttt{simgrid-3.6})"
 
 #. type: itemize
 #: packaging-tutorial.tex:331
@@ -731,7 +732,7 @@ msgid ""
 "\\_version}>} \\&\\& dh\\_make}\\\\ (from the \\textbf{dh-make} package)"
 msgstr ""
 "\\texttt{cd \\texttt{<\\textsl{source\\_package}>-<\\textsl{upstream"
-"\\_version}>} \\&\\& dh\\_make}\\\\ (from the \\textbf{dh-make} package)"
+"\\_version}>} \\&\\& dh\\_make}\\\\ (dari paket \\textbf{dh-make})"
 
 #. type: itemize
 #: packaging-tutorial.tex:331
@@ -745,7 +746,7 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:331
 msgid "\\texttt{debian/} directory created, with a lot of files in it"
-msgstr "\\texttt{debian/} directory created, with a lot of files in it"
+msgstr "direktori \\texttt{debian/} dibuat, dengan beberapa berkas di dalamnya"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:360
@@ -762,17 +763,17 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:360
 msgid "Main files:"
-msgstr "Main files:"
+msgstr "Berkas utama:"
 
 #. type: itemize
 #: packaging-tutorial.tex:360
 msgid "\\textbf{control} -- meta-data about the package (dependencies, etc.)"
-msgstr "\\textbf{control} -- meta-data about the package (dependencies, etc.)"
+msgstr "\\textbf{control} -- meta-data tentang paket (ketergantungan, dsb.)"
 
 #. type: itemize
 #: packaging-tutorial.tex:360
 msgid "\\textbf{rules} -- specifies how to build the package"
-msgstr "\\textbf{rules} -- specifies how to build the package"
+msgstr "\\textbf{rules} -- bagaimana membangun paket secara spesifik"
 
 #. type: itemize
 #: packaging-tutorial.tex:360
@@ -782,7 +783,7 @@ msgstr "\\textbf{copyright} -- informasi lisensi untuk paket"
 #. type: itemize
 #: packaging-tutorial.tex:360
 msgid "\\textbf{changelog} -- history of the Debian package"
-msgstr "\\textbf{changelog} -- catatan dari paket Debian"
+msgstr "\\textbf{changelog} -- sejarah dari paket Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:360
@@ -818,7 +819,7 @@ msgstr "source/format"
 #. type: itemize
 #: packaging-tutorial.tex:360
 msgid "patches/ -- if you need to modify the upstream sources"
-msgstr "patches/ -- if you need to modify the upstream sources"
+msgstr "patches/ -- bila Anda memerlukan modifikasi upstream sources"
 
 #. type: itemize
 #: packaging-tutorial.tex:360
@@ -833,12 +834,12 @@ msgstr "debian/changelog"
 #. type: itemize
 #: packaging-tutorial.tex:372
 msgid "Lists the Debian packaging changes"
-msgstr "Lists the Debian packaging changes"
+msgstr "Daftar Debian packaging changes"
 
 #. type: itemize
 #: packaging-tutorial.tex:372
 msgid "Gives the current version of the package"
-msgstr "Gives the current version of the package"
+msgstr "Memberikan versi terkini dari paket"
 
 #. type: tikzpicture
 #: packaging-tutorial.tex:372
@@ -851,9 +852,9 @@ msgid ""
 msgstr ""
 "\\draw (0,0) node[above right] {\\large 1.2.1.1-5}; \\draw [decorate,"
 "decoration={brace}] (2,0) -- (1.45,0) node[at start,below,text width=1.6cm,"
-"text centered] {\\small Debian revision}; \\draw [decorate,"
-"decoration={brace}] (1.4,0) -- (0,0) node[midway,below,text width=1.6cm,text "
-"centered] { \\small Upstream version};"
+"text centered] {\\small Revisi Debian}; \\draw [decorate,decoration={brace}] "
+"(1.4,0) -- (0,0) node[midway,below,text width=1.6cm,text centered] { \\small "
+"Versi upstream };"
 
 #. %
 #. type: itemize
@@ -872,7 +873,7 @@ msgid ""
 "Special format to automatically close Debian or Ubuntu bugs\\\\ Debian: "
 "\\texttt{Closes:~\\#595268}; Ubuntu: \\texttt{LP:~\\#616929}"
 msgstr ""
-"Special format to automatically close Debian or Ubuntu bugs\\\\ Debian: "
+"Special format to automatically close Debian atau kutu Ubuntu\\\\ Debian: "
 "\\texttt{Closes:~\\#595268}; Ubuntu: \\texttt{LP:~\\#616929}"
 
 #. type: itemize
@@ -927,7 +928,7 @@ msgstr "debian/control"
 #. type: itemize
 #: packaging-tutorial.tex:421
 msgid "Package metadata"
-msgstr "Package metadata"
+msgstr "Paket metadata"
 
 #. type: itemize
 #: packaging-tutorial.tex:421
@@ -1030,8 +1031,8 @@ msgid ""
 "Or, if it only works on a subset of architectures:\\\\ \\texttt{Architecture:"
 "\\ amd64 i386 ia64 hurd-i386}"
 msgstr ""
-"Or, if it only works on a subset of architectures:\\\\ \\texttt{Architecture:"
-"\\ amd64 i386 ia64 hurd-i386}"
+"Atau, hanya berjalan pada sebuah arsitektur tertentu:\\\\ "
+"\\texttt{Architecture:\\ amd64 i386 ia64 hurd-i386}"
 
 #. type: itemize
 #: packaging-tutorial.tex:456
@@ -1051,7 +1052,7 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:456
 msgid "Packages with the same content on all architectures"
-msgstr "Packages with the same content on all architectures"
+msgstr "Paket dengan konten yang sama pada semua arsitektur"
 
 #. type: itemize
 #: packaging-tutorial.tex:456
@@ -1092,7 +1093,7 @@ msgstr "Makefile"
 #. type: itemize
 #: packaging-tutorial.tex:482
 msgid "Interface used to build Debian packages"
-msgstr "Interface used to build Debian packages"
+msgstr "Interface digunakan untuk membangun paket Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:482
@@ -1129,9 +1130,9 @@ msgid ""
 "packages, or \\texttt{binary-arch} to build only the \\texttt{Architecture:"
 "~any} packages"
 msgstr ""
-"\\texttt{dpkg-buildpackage} will call \\texttt{binary} to build all the "
-"packages, or \\texttt{binary-arch} to build only the \\texttt{Architecture:"
-"~any} packages"
+"\\texttt{dpkg-buildpackage} akan menghubungi \\texttt{binary} untuk "
+"membangun semua paket, atau \\texttt{binary-arch} hanya untuk membangun "
+"paket \\texttt{Architecture:~any}"
 
 #. type: itemize
 #: packaging-tutorial.tex:482
@@ -1168,7 +1169,7 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:516
 msgid "Most popular one: \\textbf{debhelper} (used by 98\\% of packages)"
-msgstr "Most popular one: \\textbf{debhelper} (used by 98\\% of packages)"
+msgstr "Terpopuler: \\textbf{debhelper} (digunakan oleh 98\\% paket)"
 
 #. type: itemize
 #: packaging-tutorial.tex:516
@@ -1793,7 +1794,7 @@ msgstr ""
 #: packaging-tutorial.tex:736 packaging-tutorial.tex:1470
 #: packaging-tutorial.tex:1475
 msgid "Practical session 1: modifying the grep package"
-msgstr "Praktek sesi 1: memodifikasi paket grep"
+msgstr "Sesi praktek 1: memodifikasi paket grep"
 
 #. type: enumerate
 #: packaging-tutorial.tex:736 packaging-tutorial.tex:1475
@@ -2000,7 +2001,7 @@ msgstr "Ringkas"
 #. type: itemize
 #: packaging-tutorial.tex:820
 msgid "But no way to track and document the changes"
-msgstr "But no way to track and document the changes"
+msgstr "Tapi ada cara untuk melacak dan mendokumentasikan perubahan"
 
 #. type: itemize
 #: packaging-tutorial.tex:820
@@ -2841,7 +2842,7 @@ msgstr "You can get help from:"
 #. type: textbf{#1}
 #: packaging-tutorial.tex:1169
 msgid "Other members of a packaging team"
-msgstr "Other members of a packaging team"
+msgstr "Anggota lain dari tim pemaketan"
 
 #. type: itemize
 #: packaging-tutorial.tex:1169
@@ -2904,7 +2905,7 @@ msgstr "Full list: \\url{https://lists.debian.org/devel.html}"
 #. type: itemize
 #: packaging-tutorial.tex:1169
 msgid "Or users lists: \\url{https://lists.debian.org/users.html}"
-msgstr "Or users lists: \\url{https://lists.debian.org/users.html}"
+msgstr "Atau milis pengguna: \\url{https://lists.debian.org/users.html}"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:1187
@@ -3073,8 +3074,8 @@ msgid ""
 "Or use \\texttt{reportbug -\\@-template}, then send (manually) to "
 "\\texttt{submit@bugs.debian.org}"
 msgstr ""
-"Or use \\texttt{reportbug -\\@-template}, then send (manually) to "
-"\\texttt{submit@bugs.debian.org}"
+"Atau gunakan \\texttt{reportbug -\\@-template}, kemudian kirim (secara "
+"manual) ke \\texttt{submit@bugs.debian.org}"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:1266
@@ -3219,7 +3220,7 @@ msgstr "You now have a full overview of Debian packaging"
 #. type: itemize
 #: packaging-tutorial.tex:1323
 msgid "But you will need to read more documentation"
-msgstr "But you will need to read more documentation"
+msgstr "Namun Anda perlu membaca dokumentasi lainnya"
 
 #. type: itemize
 #: packaging-tutorial.tex:1323
@@ -3378,12 +3379,12 @@ msgstr "{\\small \\texttt{reportbug packaging-tutorial}}"
 #. type: section{#2}
 #: packaging-tutorial.tex:1376
 msgid "Additional practical sessions"
-msgstr "Additional practical sessions"
+msgstr "Sesi praktek tambahan"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:1394 packaging-tutorial.tex:1641
 msgid "Practical session 2: packaging GNUjump"
-msgstr "Praktek sesi 2: memaketkan GNUjump"
+msgstr "Sesi praktek 2: memaketkan GNUjump"
 
 #. type: enumerate
 #: packaging-tutorial.tex:1394 packaging-tutorial.tex:1641
@@ -3422,7 +3423,7 @@ msgstr "Enjoy"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1419 packaging-tutorial.tex:1796
 msgid "Practical session 3: packaging a Java library"
-msgstr "Praktek sesi 3: memaketkan librari Java"
+msgstr "Sesi praktek 3: memaketkan librari Java"
 
 #. type: enumerate
 #: packaging-tutorial.tex:1419 packaging-tutorial.tex:1796
@@ -3470,12 +3471,12 @@ msgstr "Download IRClib from \\url{http://moepii.sourceforge.net/}"
 #. type: enumerate
 #: packaging-tutorial.tex:1419 packaging-tutorial.tex:1796
 msgid "Package it"
-msgstr "Package it"
+msgstr "Paketkan"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:1440 packaging-tutorial.tex:1838
 msgid "Practical session 4: packaging a Ruby gem"
-msgstr "Praktek sesi 4: memaketkan Ruby gem"
+msgstr "Sesi praktek 4: memaketkan Ruby gem"
 
 #. type: enumerate
 #: packaging-tutorial.tex:1440 packaging-tutorial.tex:1838
@@ -3524,7 +3525,7 @@ msgstr "Improve it so that it becomes a proper Debian package"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1459 packaging-tutorial.tex:1895
 msgid "Practical session 5: packaging a Perl module"
-msgstr "Praktek sesi 5: memaketkan modul Perl"
+msgstr "Sesi praktek 5: memaketkan modul Perl"
 
 #. type: enumerate
 #: packaging-tutorial.tex:1459 packaging-tutorial.tex:1895
@@ -3556,18 +3557,18 @@ msgid ""
 "Create a basic Debian source package from the \\texttt{Acme} CPAN "
 "distribution:\\\\ \\verb|dh-make-perl --cpan Acme|"
 msgstr ""
-"Create a basic Debian source package from the \\texttt{Acme} CPAN "
-"distribution:\\\\ \\verb|dh-make-perl --cpan Acme|"
+"Buat sebuah paket source dasar Debian dari distribusi \\texttt{Acme} CPAN:\\"
+"\\ \\verb|dh-make-perl --cpan Acme|"
 
 #. type: section{#2}
 #: packaging-tutorial.tex:1461
 msgid "Answers to practical sessions"
-msgstr "Answers to practical sessions"
+msgstr "Jawaban untuk sesi praktek"
 
 #. type: center
 #: packaging-tutorial.tex:1467
 msgid "\\LARGE Answers to"
-msgstr "\\LARGE Answers to"
+msgstr "\\LARGE Jawaban untuk"
 
 #. type: center
 #: packaging-tutorial.tex:1467
@@ -3585,8 +3586,8 @@ msgid ""
 "Go to \\url{http://ftp.debian.org/debian/pool/main/g/grep/} and download "
 "version 2.6.3-3 of the package"
 msgstr ""
-"Go to \\url{http://ftp.debian.org/debian/pool/main/g/grep/} and download "
-"version 2.6.3-3 of the package"
+"Pergi ke \\url{http://ftp.debian.org/debian/pool/main/g/grep/} dan unduh "
+"versi 2.6.3-3 dari paket"
 
 #. type: itemize
 #: packaging-tutorial.tex:1524
@@ -3594,8 +3595,9 @@ msgid ""
 "Use dget to download the \\texttt{.dsc} file:\\\\ {\\small \\texttt{dget "
 "http://cdn.debian.net/debian/pool/main/g/grep/grep\\_2.6.3-3.dsc}}"
 msgstr ""
-"Use dget to download the \\texttt{.dsc} file:\\\\ {\\small \\texttt{dget "
-"http://cdn.debian.net/debian/pool/main/g/grep/grep\\_2.6.3-3.dsc}}"
+"Gunakan dget untuk mengunduh berkas \\texttt{.dsc} :\\\\ {\\small "
+"\\texttt{dget http://cdn.debian.net/debian/pool/main/g/grep/grep\\_2.6.3-3."
+"dsc}}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1524
@@ -3708,7 +3710,8 @@ msgstr ""
 msgid ""
 "Or you can use \\texttt{dch -i}, which will add an entry and open the editor"
 msgstr ""
-"Or you can use \\texttt{dch -i}, which will add an entry and open the editor"
+"Atau Anda dapat menggunakan \\texttt{dch -i}, which will tambahkan sebuah "
+"entri dan membuka penyunting berkas"
 
 #. type: itemize
 #: packaging-tutorial.tex:1573
@@ -3794,7 +3797,7 @@ msgstr "\\texttt{grep -P foo} no longer works!"
 #. type: frame
 #: packaging-tutorial.tex:1623
 msgid "Or not: reinstall the previous version of the package:"
-msgstr "Or not: reinstall the previous version of the package:"
+msgstr "Atau tidak: pasang kembali versi paket sebelumnya:"
 
 #. type: itemize
 #: packaging-tutorial.tex:1623
