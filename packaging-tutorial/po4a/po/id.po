@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packaging-tutorial 0.16\n"
 "POT-Creation-Date: 2015-12-26 21:31+0100\n"
-"PO-Revision-Date: 2016-08-04 16:59+0700\n"
+"PO-Revision-Date: 2016-08-04 18:16+0700\n"
 "Last-Translator: Izharul Haq <atoz.chevara@yahoo.com>\n"
 "Language-Team: Debian Indonesia Translator <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -616,12 +616,12 @@ msgstr ""
 #. type: subsection{#2}
 #: packaging-tutorial.tex:308
 msgid "Retrieving source packages"
-msgstr "Retrieving source packages"
+msgstr "Mengambil paket source"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:308
 msgid "Retrieving an existing source package"
-msgstr "Retrieving an existing source package"
+msgstr "Mengambil paket sumber yang ada"
 
 #. type: itemize
 #: packaging-tutorial.tex:308
@@ -1986,7 +1986,7 @@ msgstr "Perbaikan Backport dari sebuah rilis upstream terbaru"
 #. type: frame
 #: packaging-tutorial.tex:820
 msgid "Several methods to do it:"
-msgstr "Several methods to do it:"
+msgstr "Beberapa metode untuk melakukannya:"
 
 #. type: itemize
 #: packaging-tutorial.tex:820
@@ -2153,7 +2153,7 @@ msgstr ""
 #. type: frame{#2}
 #: packaging-tutorial.tex:891
 msgid "Doing things during installation and removal"
-msgstr "Doing things during installation and removal"
+msgstr "Melakukan berbagai hal selama instalasi dan penghapusan"
 
 #. type: itemize
 #: packaging-tutorial.tex:891
@@ -2307,8 +2307,8 @@ msgid ""
 "Several tools to help manage branches and tags for your packaging work:\\\\ "
 "\\texttt{svn-buildpackage}, \\texttt{git-buildpackage}"
 msgstr ""
-"Several tools to help manage branches and tags for your packaging work:\\\\ "
-"\\texttt{svn-buildpackage}, \\texttt{git-buildpackage}"
+"Beberapa alat untuk membantu mengelola cabang dan tag untuk pekerjaan "
+"kemasan Anda:\\\\ \\texttt{svn-buildpackage}, \\texttt{git-buildpackage}"
 
 #. type: itemize
 #: packaging-tutorial.tex:964
@@ -2474,7 +2474,7 @@ msgstr "Mengelola paket di Debian"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1018
 msgid "Several ways to contribute to Debian"
-msgstr "Several ways to contribute to Debian"
+msgstr "Beberapa cara untuk berkontribusi ke Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:1018
@@ -2544,22 +2544,22 @@ msgstr "Are there alternatives already packaged in Debian?"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1056
 msgid "Adopting orphaned packages"
-msgstr "Adopting orphaned packages"
+msgstr "Mengadopsi paket orphaned"
 
 #. type: itemize
 #: packaging-tutorial.tex:1056
 msgid "Many unmaintained packages in Debian"
-msgstr "Many unmaintained packages in Debian"
+msgstr "Banyak paket yang belum dikelola di Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:1056
 msgid "Full list + process: \\url{https://www.debian.org/devel/wnpp/}"
-msgstr "Full list + process: \\url{https://www.debian.org/devel/wnpp/}"
+msgstr "Daftar lengkap + proses: \\url{https://www.debian.org/devel/wnpp/}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1056
 msgid "Installed on your machine: \\texttt{wnpp-alert}"
-msgstr "Installed on your machine: \\texttt{wnpp-alert}"
+msgstr "Terpasang pada mesin Anda: \\texttt{wnpp-alert}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1056
@@ -2687,7 +2687,7 @@ msgstr ""
 #: packaging-tutorial.tex:1075
 #, no-wrap
 msgid "You"
-msgstr "You"
+msgstr "Anda"
 
 #. type: itemize
 #: packaging-tutorial.tex:1082
@@ -2701,12 +2701,12 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:1082
 msgid "Very good idea to contact the upstream project"
-msgstr "Very good idea to contact the upstream project"
+msgstr "Ide yang sangat baik untuk menghubungi proyek upstream"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:1106
 msgid "Getting your package in Debian"
-msgstr "Getting your package in Debian"
+msgstr "Panel kontrol Debian untuk pengelola"
 
 #. type: itemize
 #: packaging-tutorial.tex:1106
@@ -2792,12 +2792,12 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:1134
 msgid "Using \\texttt{pbuilder} is recommended"
-msgstr "Using \\texttt{pbuilder} is recommended"
+msgstr "Direkomendasikan menggunakan \\texttt{pbuilder}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1134
 msgid "Run \\texttt{lintian -EviIL +pedantic} on your package"
-msgstr "Run \\texttt{lintian -EviIL +pedantic} on your package"
+msgstr "Jalankan \\texttt{lintian -EviIL +pedantic} pada paket Anda"
 
 #. type: itemize
 #: packaging-tutorial.tex:1134
@@ -2817,7 +2817,7 @@ msgstr "In doubt, ask for help"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1169
 msgid "Where to find help?"
-msgstr "Where to find help?"
+msgstr "Dimana bisa memperoleh bantuan?"
 
 #. type: frame
 #: packaging-tutorial.tex:1169
@@ -2837,7 +2837,7 @@ msgstr "Sponsorship for your uploads, once your package is ready"
 #. type: frame
 #: packaging-tutorial.tex:1169
 msgid "You can get help from:"
-msgstr "You can get help from:"
+msgstr "Anda dapat memperoleh bantuan dari:"
 
 #. type: textbf{#1}
 #: packaging-tutorial.tex:1169
@@ -2847,7 +2847,7 @@ msgstr "Anggota lain dari tim pemaketan"
 #. type: itemize
 #: packaging-tutorial.tex:1169
 msgid "List of teams: \\url{https://wiki.debian.org/Teams}"
-msgstr "List of teams: \\url{https://wiki.debian.org/Teams}"
+msgstr "Daftar tim: \\url{https://wiki.debian.org/Teams}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1169
@@ -2883,7 +2883,7 @@ msgstr "\\url{http://mentors.debian.net/}"
 #. type: itemize
 #: packaging-tutorial.tex:1169
 msgid "Documentation: \\url{http://mentors.debian.net/intro-maintainers}"
-msgstr "Documentation: \\url{http://mentors.debian.net/intro-maintainers}"
+msgstr "Dokumentasi: \\url{http://mentors.debian.net/intro-maintainers}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1169
@@ -2900,7 +2900,7 @@ msgstr ""
 #. type: itemize
 #: packaging-tutorial.tex:1169
 msgid "Full list: \\url{https://lists.debian.org/devel.html}"
-msgstr "Full list: \\url{https://lists.debian.org/devel.html}"
+msgstr "Daftar lengkap: \\url{https://lists.debian.org/devel.html}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1169
@@ -2971,7 +2971,7 @@ msgstr ""
 #. type: frame{#2}
 #: packaging-tutorial.tex:1212
 msgid "Debian dashboards for maintainers"
-msgstr "Debian dashboards for maintainers"
+msgstr "Panel kontrol Debian untuk pengelola"
 
 #. type: itemize
 #: packaging-tutorial.tex:1212
@@ -3003,7 +3003,7 @@ msgstr ""
 #. type: frame{#2}
 #: packaging-tutorial.tex:1240
 msgid "Using the Debian Bug Tracking System (BTS)"
-msgstr "Using the Debian Bug Tracking System (BTS)"
+msgstr "Menggunakan Debian Bug Tracking System (BTS)"
 
 #. type: itemize
 #: packaging-tutorial.tex:1240
@@ -3013,7 +3013,7 @@ msgstr "A quite unique way to manage bugs"
 #. type: itemize
 #: packaging-tutorial.tex:1240
 msgid "Web interface to view bugs"
-msgstr "Web interface to view bugs"
+msgstr "Antarmuka web untuk melihat kutu"
 
 #. type: itemize
 #: packaging-tutorial.tex:1240
@@ -3023,7 +3023,7 @@ msgstr "Email interface to make changes to bugs"
 #. type: itemize
 #: packaging-tutorial.tex:1240
 msgid "Adding information to bugs:"
-msgstr "Adding information to bugs:"
+msgstr "Menambahkan informasi pada kutu:"
 
 #. type: itemize
 #: packaging-tutorial.tex:1240
@@ -3052,12 +3052,12 @@ msgstr "Command-line interface: \\texttt{bts} command in \\texttt{devscripts}"
 #. type: itemize
 #: packaging-tutorial.tex:1240
 msgid "Documentation: \\url{https://www.debian.org/Bugs/server-control}"
-msgstr "Documentation: \\url{https://www.debian.org/Bugs/server-control}"
+msgstr "Dokumentasi: \\url{https://www.debian.org/Bugs/server-control}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1240
 msgid "Reporting bugs: use \\texttt{reportbug}"
-msgstr "Reporting bugs: use \\texttt{reportbug}"
+msgstr "Melaporkan kutu: gunakan \\texttt{reportbug}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1240
@@ -3065,7 +3065,7 @@ msgid ""
 "Normally used with a local mail server: install \\texttt{ssmtp} or "
 "\\texttt{nullmailer}"
 msgstr ""
-"Normally used with a local mail server: install \\texttt{ssmtp} or "
+"Normalnya digunakan dengan mail server lokal: install \\texttt{ssmtp} atau "
 "\\texttt{nullmailer}"
 
 #. type: itemize
@@ -3080,7 +3080,7 @@ msgstr ""
 #. type: frame{#2}
 #: packaging-tutorial.tex:1266
 msgid "Using the BTS: examples"
-msgstr "Using the BTS: examples"
+msgstr "Menggunakan BTS: contoh"
 
 #. type: itemize
 #: packaging-tutorial.tex:1266
@@ -3117,7 +3117,7 @@ msgid ""
 "HowtoUseBTS\\#Version\\_tracking}"
 msgstr ""
 "\\texttt{notfound}, \\texttt{found}, \\texttt{notfixed}, \\texttt{fixed} are "
-"for \\textbf{version-tracking} \\\\ See \\url{https://wiki.debian.org/"
+"for \\textbf{version-tracking} \\\\ Lihat \\url{https://wiki.debian.org/"
 "HowtoUseBTS\\#Version\\_tracking}"
 
 #. type: itemize
@@ -3126,13 +3126,13 @@ msgid ""
 "Using usertags: \\url{https://bugs.debian.org/cgi-bin/bugreport.cgi?msg=42;"
 "bug=642267}\\\\ See \\url{https://wiki.debian.org/bugs.debian.org/usertags}"
 msgstr ""
-"Using usertags: \\url{https://bugs.debian.org/cgi-bin/bugreport.cgi?msg=42;"
-"bug=642267}\\\\ See \\url{https://wiki.debian.org/bugs.debian.org/usertags}"
+"Menggunakan usertags: \\url{https://bugs.debian.org/cgi-bin/bugreport.cgi?msg=42;"
+"bug=642267}\\\\ Lihat \\url{https://wiki.debian.org/bugs.debian.org/usertags}"
 
 #. type: itemize
 #: packaging-tutorial.tex:1266
 msgid "BTS Documentation:"
-msgstr "BTS Documentation:"
+msgstr "Dokumentasi BTS:"
 
 #. type: itemize
 #: packaging-tutorial.tex:1266
@@ -3147,7 +3147,7 @@ msgstr "\\url{https://wiki.debian.org/HowtoUseBTS}"
 #. type: frame{#2}
 #: packaging-tutorial.tex:1293
 msgid "More interested in Ubuntu?"
-msgstr "More interested in Ubuntu?"
+msgstr "Lebih tertarik dengan Ubuntu?"
 
 #. type: itemize
 #: packaging-tutorial.tex:1293
@@ -3160,8 +3160,8 @@ msgid ""
 "No real focus on specific packages\\\\ Instead, collaboration with Debian "
 "teams"
 msgstr ""
-"No real focus on specific packages\\\\ Instead, collaboration with Debian "
-"teams"
+"No real focus on specific packages\\\\ Instead, kolaborasi dengan tim "
+"Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:1293
@@ -3309,7 +3309,7 @@ msgstr ""
 #. type: frame{#2}
 #: packaging-tutorial.tex:1374
 msgid "Contribute to this tutorial"
-msgstr "Contribute to this tutorial"
+msgstr "Berkontribusi untuk panduan ini"
 
 #. type: itemize
 #: packaging-tutorial.tex:1374
