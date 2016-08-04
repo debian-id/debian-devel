@@ -9,5 +9,6 @@
 *.bak
 po4a/po/*.mo
 po4a/po/ru.po
+figs/openlogo-nd.pdf
 *.pdf_FAILED
 *.*.tex
