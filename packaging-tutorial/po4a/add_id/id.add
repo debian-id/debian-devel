@@ -2,7 +2,9 @@ PO4A-HEADER:mode=before;position=\\end{document};beginboundary=NoT_In_ThE_DocUME
 
 \section*{Alih Bahasa}
 \begin{frame}{Alih Bahasa}
- Izharul Haq dan Nama Anda
+ Izharul Haq,\
+ Nama Anda, dan\
+ Dia
  \hbr
 
  Jika Anda menemukan kesalahan pada terjemahan ini, silahkan kirimkan email ke
