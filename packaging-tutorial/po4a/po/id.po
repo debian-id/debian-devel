@@ -127,19 +127,19 @@ msgstr "Debian"
 #. type: textbf{#1}
 #: packaging-tutorial.tex:84
 msgid "GNU/Linux distribution"
-msgstr "distribusi GNU/Linux"
+msgstr "Distribusi GNU/Linux"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
 msgid "1st major distro developed ``openly in the spirit of GNU''"
-msgstr "1st major distro developed ``openly in the spirit of GNU''"
+msgstr "Mayor distro pertama yang dikembangkan ``secara terbuka dalam semangat GNU''"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
 msgid ""
 "\\textbf{Non-commercial}, built collaboratively by over 1,000 volunteers"
 msgstr ""
-"\\textbf{Tidak-komersil}, dibangun secara kolaborasi oleh lebih dari 1,000 "
+"\\textbf{Tidak-komersil}, hasil kolaborasi dari 1,000 "
 "relawan"
 
 #. type: itemize
@@ -153,8 +153,8 @@ msgid ""
 "\\textbf{Quality} -- culture of technical excellence\\\\ {\\small\\sl We "
 "release when it's ready}"
 msgstr ""
-"\\textbf{Quality} -- culture of technical excellence\\\\ {\\small\\sl Kami "
-"rilis bila sudah selesai}"
+"\\textbf{Kualitas} -- budaya dari keunggulan teknis\\\\ {\\small\\sl Kami "
+"rilis setelah selesai}"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
@@ -162,8 +162,8 @@ msgid ""
 "\\textbf{Freedom} -- devs and users bound by the \\textsl{Social Contract}\\"
 "\\ Promoting the culture of Free Software since 1993"
 msgstr ""
-"\\textbf{Freedom} -- devs and users bound by the \\textsl{Kontrak Sosial}\\"
-"\\ Mempromosikan budaya Free Software sejak 1993"
+"\\textbf{Kebebasan} -- pengembang dan pengguna mematuhi \\textsl{Kontrak Sosial}\\"
+"\\ Mempromosikan budaya Perangkat Lunak Bebas sejak tahun 1993"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
@@ -171,18 +171,18 @@ msgid ""
 "\\textbf{Independence} -- no (single) company babysitting Debian\\\\ And "
 "open decision-making process (\\textsl{do-ocracy} + \\textsl{democracy})"
 msgstr ""
-"\\textbf{Independence} -- no (single) company babysitting Debian\\\\ And "
-"open decision-making process (\\textsl{do-ocracy} + \\textsl{demokrasi})"
+"\\textbf{Kemerdekaan} -- tidak ada (satupun) perusahaan yang mengawasi Debian\\\\ dan "
+"pengambilan keputusan secara terbuka (\\textsl{do-ocracy} + \\textsl{demokrasi})"
 
 #. type: itemize
 #: packaging-tutorial.tex:84
 msgid "\\textbf{Amateur} in the best sense: done for the love of it"
-msgstr "\\textbf{Amateur} in the best sense: done for the love of it"
+msgstr "\\textbf{Amatir} dalam artian yang baik: dibuat dengan cinta"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:105
 msgid "Debian packages"
-msgstr "paket Debian"
+msgstr "Paket Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
@@ -192,12 +192,12 @@ msgstr "berkas \\textbf{.deb} (paket binari)"
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "A very powerful and convenient way to distribute software to users"
-msgstr "A very powerful and convenient way to distribute software to users"
+msgstr "Sebuah cara yang ampuh dan mudah untuk mendistribusikan perangkat lunak kepada pengguna"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "One of the two most common package formats (with RPM)"
-msgstr "One of the two most common package formats (with RPM)"
+msgstr "Salah satu dari dua format paket yang paling umum (dengan RPM)"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
@@ -210,18 +210,18 @@ msgid ""
 "30,000 binary packages in Debian\\\\ $\\rightarrow$ most of the available "
 "free software is packaged in Debian!"
 msgstr ""
-"30,000 paket binari di Debian\\\\ $\\rightarrow$ most of the available free "
-"software is packaged in Debian!"
+"30,000 paket binari di Debian\\\\ $\\rightarrow$ kebanyakan perangkat lunak bebas "
+"dikemas dalam Debian!"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "For 12 ports (architectures), including 2 non-Linux (Hurd; KFreeBSD)"
-msgstr "Untuk 12 ports (arsitektur), termasuk 2 non-Linux (Hurd; KFreeBSD)"
+msgstr "Untuk 12 port (arsitektur), termasuk 2 non-Linux (Hurd; KFreeBSD)"
 
 #. type: itemize
 #: packaging-tutorial.tex:105
 msgid "Also used by 120 Debian derivative distributions"
-msgstr "Digunakan oleh 120 distribusi turunan Debian"
+msgstr "Juga digunakan oleh 120 distribusi turunan Debian"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:108 packaging-tutorial.tex:133
@@ -258,7 +258,7 @@ msgid ""
 "\\texttt{debian-binary}: version of the deb file format, "
 "\\texttt{\"2.0\\textbackslash{}n\"}"
 msgstr ""
-"\\texttt{debian-binary}: version of the deb file format, "
+"\\texttt{debian-binary}: versi format berkas deb, "
 "\\texttt{\"2.0\\textbackslash{}n\"}"
 
 #. type: itemize
@@ -301,7 +301,7 @@ msgstr "Panduan ini: membuat paket Debian, cara Debian"
 #. type: frame{#2}
 #: packaging-tutorial.tex:153
 msgid "Tools you will need"
-msgstr "Perkakas yang anda perlukan"
+msgstr "Perkakas yang Anda perlukan"
 
 #. type: itemize
 #: packaging-tutorial.tex:153
@@ -320,9 +320,9 @@ msgid ""
 "assumed to be available on the developer's machine (no need to specify them "
 "in the \\texttt{Build-Depends:} control field of your package)"
 msgstr ""
-"\\textbf{build-essential}: has dependencies on the packages that will be "
-"assumed to be available on the developer's machine (no need to specify them "
-"in the \\texttt{Build-Depends:} control field of your package)"
+"\\textbf{build-essential}: memiliki ketergantungan pada paket yang akan "
+"diasumsikan tersedia pada mesin pengembang (tidak perlu menentukan secara spesifik "
+"di \\texttt{Build-Depends:} control field pada paket Anda)"
 
 #. type: itemize
 #: packaging-tutorial.tex:153
@@ -330,15 +330,15 @@ msgid ""
 "includes a dependency on \\textbf{dpkg-dev}, which contains basic Debian-"
 "specific tools to create packages"
 msgstr ""
-"includes a dependency on \\textbf{dpkg-dev}, which contains basic Debian-"
-"specific tools to create packages"
+"termasuk juga ketergantungan pada \\textbf{dpkg-dev}, yang berisi peralatan "
+"dasar khusus untuk membuat paket Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:153
 msgid ""
 "\\textbf{devscripts}: contains many useful scripts for Debian maintainers"
 msgstr ""
-"\\textbf{devscripts}: contains many useful scripts for Debian maintainers"
+"\\textbf{devscripts}: berisikan beberapa script yang berguna untuk pengelola paket Debian"
 
 #. type: frame
 #: packaging-tutorial.tex:161
@@ -348,11 +348,11 @@ msgid ""
 "\\textbf{lintian}, \\textbf{svn-buildpackage}, \\textbf{git-buildpackage}, "
 "\\ldots\\\\ Install them when you need them."
 msgstr ""
-"Banyak perkakas lain yang akan diperlukan nantinya, seperti "
+"Banyak perkakas lain yang akan disebutkan nantinya, seperti "
 "\\textbf{debhelper}, \\textbf{cdbs}, \\textbf{quilt}, \\textbf{pbuilder}, "
 "\\textbf{sbuild}, \\textbf{lintian}, \\textbf{svn-buildpackage}, "
-"\\textbf{git-buildpackage}, \\ldots\\\\ Pasang semua bila Anda "
-"menginginkannya."
+"\\textbf{git-buildpackage}, \\ldots\\\\ Pasang paket tersebut "
+"bila Anda menginginkannya."
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:168
@@ -383,11 +383,11 @@ msgid ""
 "\\useasboundingbox (-4,-6) rectangle (6,0);"
 msgstr ""
 "\\node[node1] (www) at (0, 0) {Web}; \\node[node1] (us) at (2.5, 0) "
-"{upstream source}; \\node[node1] (da) at (-2.5, 0) {Debian mirror}; "
-"\\node[node1] (sp) at (0, -2) {source package}; \\draw[arr,<-,dashed,thick] "
+"{paket upstream}; \\node[node1] (da) at (-2.5, 0) {cermin Debian}; "
+"\\node[node1] (sp) at (0, -2) {paket source}; \\draw[arr,<-,dashed,thick] "
 "(sp) -- (2.5,-2) node[right=0cm,text width=2.98cm,text centered,font=\\small"
-"\\sl] {where most of the manual work is done}; \\node[node1] (bin) at (0, "
-"-4) {one or several binary packages}; \\draw[arr,<-,dashed,thick] (bin) -- "
+"\\sl] {dimana sebahagian besar bekerja secara manual}; \\node[node1] (bin) at (0, "
+"-4) {satu atau lebih paket binari}; \\draw[arr,<-,dashed,thick] (bin) -- "
 "(3.5,-4) node[right,text centered,font=\\small\\ttfamily\\sl] {.deb"
 "\\normalfont}; \\draw[arr,->] (us) -- (sp) node[pos=0.5,right,command] {dh"
 "\\_make}; \\draw[arr,->] (da) -- (sp) node[pos=0.5,left,command] {apt-get "
@@ -494,14 +494,14 @@ msgid ""
 "the \\texttt{\\bfseries libtar} source generates the \\texttt{\\bfseries "
 "libtar0} and \\texttt{\\bfseries libtar-dev} binary packages}"
 msgstr ""
-"One source package can generate several binary packages\\\\ {\\small e.g. "
-"the \\texttt{\\bfseries libtar} source generates the \\texttt{\\bfseries "
-"libtar0} and \\texttt{\\bfseries libtar-dev} binary packages}"
+"Sebuah paket source dapat menghasilkan beberapa paket binari\\\\ {\\small mis. "
+"source \\texttt{\\bfseries libtar} menghasilkan paket binari \\texttt{\\bfseries "
+"libtar0} dan \\texttt{\\bfseries libtar-dev}}"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "Two kinds of packages: (if unsure, use non-native)"
-msgstr "Two kinds of packages: (if unsure, use non-native)"
+msgstr "Dua jenis paket: (bila ragu, gunakan non-native)"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
@@ -509,28 +509,28 @@ msgid ""
 "Native packages: normally for Debian specific software (\\textsl{dpkg}, "
 "\\textsl{apt})"
 msgstr ""
-"Native packages: normally for Debian specific software (\\textsl{dpkg}, "
+"Paket Native: biasanya digunakan untuk perangkat lunak khusus Debian (\\textsl{dpkg}, "
 "\\textsl{apt})"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "Non-native packages: software developed outside Debian"
-msgstr "Non-native packages: software developed outside Debian"
+msgstr "Paket Non-native: perangkat lunak yang dikembangkan diluar Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "Main file: \\texttt{.dsc} (meta-data)"
-msgstr "Main file: \\texttt{.dsc} (meta-data)"
+msgstr "Berkas utama: \\texttt{.dsc} (meta-data)"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "Other files depending on the version of the source format"
-msgstr "Other files depending on the version of the source format"
+msgstr "Berkas lain yang tergandung pada versi dari format source"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "1.0 or 3.0 (native): \\texttt{package\\_version.tar.gz}"
-msgstr "1.0 or 3.0 (native): \\texttt{package\\_version.tar.gz}"
+msgstr "1.0 atau 3.0 (native): \\texttt{package\\_version.tar.gz}"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
@@ -540,12 +540,12 @@ msgstr "1.0 (non-native):"
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "\\texttt{pkg\\_ver.orig.tar.gz}: upstream source"
-msgstr "\\texttt{pkg\\_ver.orig.tar.gz}: upstream source"
+msgstr "\\texttt{pkg\\_ver.orig.tar.gz}: source upstream"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "\\texttt{pkg\\_debver.diff.gz}: patch to add Debian-specific changes"
-msgstr "\\texttt{pkg\\_debver.diff.gz}: patch to add Debian-specific changes"
+msgstr "\\texttt{pkg\\_debver.diff.gz}: tambalan untuk menambahkan perubahan secara spesifik di Debian"
 
 #. type: itemize
 #: packaging-tutorial.tex:256
@@ -555,12 +555,12 @@ msgstr "3.0 (quilt):"
 #. type: itemize
 #: packaging-tutorial.tex:256
 msgid "\\texttt{pkg\\_debver.debian.tar.gz}: tarball with the Debian changes"
-msgstr "\\texttt{pkg\\_debver.debian.tar.gz}: tarball with the Debian changes"
+msgstr "\\texttt{pkg\\_debver.debian.tar.gz}: tarball dengan perubahan di Debian"
 
 #. type: frame
 #: packaging-tutorial.tex:256
 msgid "(See \\texttt{dpkg-source(1)} for exact details)"
-msgstr "(See \\texttt{dpkg-source(1)} for exact details)"
+msgstr "(Lihat \\texttt{dpkg-source(1)} untuk detilnya)"
 
 #. type: frame{#2}
 #: packaging-tutorial.tex:280
