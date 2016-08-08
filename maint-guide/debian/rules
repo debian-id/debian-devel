@@ -1,0 +1,63 @@
+#!/usr/bin/make -f
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+MANUAL		:= maint-guide
+
+# Languages which generate DocBook XML files from PO files
+# (More conservative than the ones in Makefile)
+LANGPO		:= ca de es fr it ja ru zh-cn zh-tw
+
+# Override main Makefile to build CJK under sid
+# No PDF build for these lunguages
+LANGNOPDF	:= ja zh-cn zh-tw 
+
+## comment out to build with the cleaner log (it slows!)
+#BUILDOPT	:= --parallel
+BUILDOPT	:=
+
+VERSION		:= $(shell sed -ne '1s/[-a-zA-Z0-9 ]*(\([^()]*\)) .*$$/\1/p' debian/changelog)
+
+#######################################################################
+# If you added/removed translation, please run "debian/rules prep"
+# to update the debian/control file
+#######################################################################
+prep:
+	cd debian ;\
+	cp -f control control-old ;\
+	sed -e '/^Package: maint-guide-/,$$d' < control-old > control ;\
+	for x in $(LANGPO); do \
+		./language $$x < template/control-body >> control; \
+	done
+.PHONY: prep
+#######################################################################
+%:
+	dh  $@
+
+override_dh_auto_build:
+	cd debian ;\
+	./language "en" < template/install > $(MANUAL).install ;\
+	./language "en" < template/doc-base > $(MANUAL).doc-base ;\
+	./language "en" < template/lintian-overrides > $(MANUAL).lintian-overrides ;\
+	for x in $(LANGPO); do \
+		./language $$x < template/install > $(MANUAL)-$$x.install; \
+		./language $$x < template/doc-base > $(MANUAL)-$$x.doc-base; \
+		./language $$x < template/lintian-overrides > $(MANUAL)-$$x.lintian-overrides; \
+	done
+	dh_auto_build $(BUILDOPT) -- \
+		"MANUAL=$(MANUAL)" \
+		"VERSION=$(VERSION)" \
+		"LANGPO=$(LANGPO)" \
+		"LANGNOPDF=$(LANGNOPDF)" \
+		all
+
+override_dh_compress:
+	dh_compress -X.pdf -X.epub
+
+override_dh_auto_clean:
+	-rm -f debian/control-old
+	-rm -f debian/*.install
+	-rm -f debian/*.doc-base
+	-rm -f debian/*.lintian-overrides
+	$(MAKE) "LANGPO=$(LANGPO)"  clean
+
