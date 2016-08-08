@@ -1,0 +1,8 @@
+<!--
+This is UTF-8 file.
+Remember, the *first* definition of an entity wins.
+-->
+
+<!ENTITY othercredit '
+<othercredit role="translator"><personname>Izharul Haq</personname><email>atoz.chevara@yahoo.com</email><contrib>Alih Bahasa</contrib></othercredit>
+'>
