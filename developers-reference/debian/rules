@@ -1,0 +1,34 @@
+#!/usr/bin/make -f
+# rules file for developers-reference
+
+include /usr/share/dpkg/default.mk
+
+DEB_DATE	:= $(shell dpkg-parsechangelog 2>/dev/null | sed -n 's/^Date: *//p')
+PUBDATE		:= $(shell LC_ALL=C date --date="$(DEB_DATE)" -I)
+
+LANGS		:= $(shell dh_listpackages| sed -n -e 's/developers-reference-//p')
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	$(MAKE) VERSION=$(DEB_VERSION) PUBDATE=$(PUBDATE) LANGS="$(LANGS)"
+
+override_dh_compress:
+	dh_compress -X.pdf -X.epub
+
+override_dh_installdeb:
+	debian/tocsubstvars
+	dh_installdeb
+		
+update-l10n-files:
+	for lang in $(LANGS); do \
+	    (echo "README-contrib"; \
+	     echo "$$lang/*.html"; \
+	     echo "$$lang/developers-reference.txt"; \
+	     echo "$$lang/developers-reference.epub"; \
+	     echo "$$lang/developers-reference.pdf") \
+	    > debian/developers-reference-$$lang.docs; \
+	done
+
+.PHONY: update-l10n-files

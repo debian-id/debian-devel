@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- common entities file
+
+     Bits of text which are language independent.  In some cases it
+     makes sense to break these out because repetitively maintaining
+     them in different translations of the Developer's Reference is
+     wasteful.  In other cases, the data is rather volatile and
+     breaking it out make maintenance easier.
+  -->
+
+<!-- volatile information -->
+
+<!ENTITY number-of-pkgs "15000">
+<!ENTITY number-of-maintainers "1000">
+
+<!ENTITY number-of-arches "11">
+
+<!-- semi-volatile information -->
+<!ENTITY codename-oldoldstable "squeeze">
+<!ENTITY codename-oldstable "wheezy">
+<!ENTITY codename-stable "jessie">
+<!ENTITY codename-testing "stretch">
+<!ENTITY codename-nexttesting "buster">
+<!ENTITY version-oldoldstable "6.0">
+<!ENTITY version-oldstable "7">
+<!ENTITY version-stable "8">
+<!ENTITY version-testing "9">
+<!ENTITY version-nexttesting "10">
+
+<!-- standard information -->
+<!ENTITY fsf-addr "Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA">
+<!ENTITY file-GPL "<filename>/usr/share/common-licenses/GPL-2</filename>">
+<!ENTITY debian-formal "Debian">
+
+<!--
+     URLs, Debian
+  -->
+<!ENTITY master-host "master.debian.org">
+<!ENTITY www-debian-org "www.debian.org">
+<!ENTITY ftp-debian-org "ftp.debian.org">
+<!ENTITY release-debian-org "release.debian.org">
+<!ENTITY snap-debian-org "snapshot.debian.org">
+<!ENTITY lists-host "lists.debian.org">
+<!ENTITY archive-host "archive.debian.org">
+<!ENTITY keyserver-host "keyring.debian.org">
+<!ENTITY packages-host "packages.debian.org">
+<!ENTITY bugs-host "bugs.debian.org">
+<!ENTITY pts-host "packages.qa.debian.org">
+<!ENTITY tracker-host "tracker.debian.org">
+<!ENTITY ftp-master-host "ftp-master.debian.org">
+<!ENTITY ftp-upload-host "ftp.upload.debian.org">
+<!ENTITY ftp-eu-upload-host "ftp.eu.upload.debian.org">
+<!ENTITY ssh-upload-host "ssh.upload.debian.org">
+<!ENTITY ftp-master-mirror "mirror.ftp-master.debian.org">
+<!ENTITY upload-queue "/pub/UploadQueue/">
+
+<!ENTITY url-debian-policy "https://&www-debian-org;/doc/debian-policy/">
+<!ENTITY url-perl-policy "https://&www-debian-org;/doc/packaging-manuals/perl-policy/">
+<!ENTITY url-emacs-policy "https://&www-debian-org;/doc/packaging-manuals/debian-emacs-policy">
+<!ENTITY url-java-policy "https://&www-debian-org;/doc/packaging-manuals/java-policy/">
+<!ENTITY url-libpkg-guide "http://www.netfort.gr.jp/~dancer/column/libpkg-guide/">
+
+<!ENTITY url-social-contract "https://&www-debian-org;/social_contract">
+<!ENTITY url-constitution "https://&www-debian-org;/devel/constitution">
+<!ENTITY url-dfsg "&url-social-contract;#guidelines">
+<!ENTITY url-debian-lists "https://&www-debian-org;/MailingLists/">
+<!ENTITY url-debian-lists-new "&url-debian-lists;HOWTO_start_list">
+<!ENTITY url-bts "https://&www-debian-org;/Bugs/">
+<!ENTITY url-bts-report "&url-bts;Reporting">
+<!ENTITY url-bts-devel "&url-bts;Developer">
+<!ENTITY url-bts-control "&url-bts;server-control">
+<!ENTITY url-debian-mirrors "https://&www-debian-org;/mirror/">
+<!ENTITY url-debian-ports "https://&www-debian-org;/ports/">
+<!ENTITY url-debian-port-lists "https://&lists-host;/ports.html">
+<!ENTITY url-wnpp "https://&www-debian-org;/devel/wnpp/">
+<!ENTITY url-devel-docs "https://&www-debian-org;/devel/">
+<!ENTITY url-vote "https://&www-debian-org;/vote/">
+<!ENTITY url-cvsweb "https://cvs.debian.org/">
+<!ENTITY url-devel-machines "https://db.debian.org/machines.cgi">
+<!ENTITY url-buildd "https://buildd.debian.org/">
+<!ENTITY url-release-wb "https://release.debian.org/wanna-build.txt">
+<!ENTITY url-releases "https://&www-debian-org;/releases/">
+<!ENTITY url-wb-team "https://lists.debian.org/debian-project/2009/03/msg00096.html">
+<!ENTITY url-lintian "https://lintian.debian.org/">
+<!ENTITY url-debian-qa "https://qa.debian.org/">
+<!ENTITY url-debian-qa-orphaned "&url-debian-qa;orphaned.html">
+<!ENTITY url-debian-db "https://db.debian.org/">
+<!ENTITY url-debian-db-login "&url-debian-db;login.html">
+<!ENTITY url-debian-db-mail-gw "https://db.debian.org/doc-mail.html">
+<!ENTITY url-debian-db-doc "https://db.debian.org/doc-general.html">
+<!ENTITY url-newmaint "&url-devel-docs;join/newmaint">
+<!ENTITY url-newmaint-db "https://nm.debian.org/">
+<!ENTITY url-newmaint-advocate "&url-devel-docs;join/nm-advocate">
+<!ENTITY url-newmaint-amchecklist "&url-devel-docs;join/nm-amchecklist">
+<!ENTITY url-newmaint-apply "https://nm.debian.org/newnm.php">
+<!ENTITY url-newmaint-id "https://&www-debian-org;/devel/join/nm-step2">
+<!ENTITY url-newmaint-guide "https://&www-debian-org;/doc/maint-guide/">
+<!ENTITY url-gpg-coord "https://wiki.debian.org/Keysigning">
+<!ENTITY url-debian-security-advisories "https://&www-debian-org;/security/">
+<!ENTITY url-tech-ctte "https://&www-debian-org;/devel/tech-ctte">
+<!ENTITY url-ddpo "https://qa.debian.org/developer.php">
+<!ENTITY url-dcg "https://people.debian.org/~enrico/dcg/">
+<!ENTITY url-rt "https://rt.debian.org/">
+<!ENTITY url-wiki-dm "https://wiki.debian.org/DebianMaintainer">
+<!ENTITY url-i18n-doc-check "https://svn.debian.org/viewvc/d-i/trunk/manual/scripts/doc-check?view=co">
+<!ENTITY url-i18n-l10n "https://people.debian.org/~jfs/debconf6/html/">
+<!ENTITY url-i18n-intro "https://&www-debian-org;/doc/manuals/intro-i18n/">
+<!ENTITY url-ddtp "http://ddtp.debian.net/">
+<!ENTITY url-l10n "https://&www-debian-org;/intl/l10n/">
+<!ENTITY url-dep3 "http://dep.debian.net/deps/dep3/">
+
+<!ENTITY url-incoming "http://incoming.debian.org/">
+<!ENTITY url-testing-maint "https://www.debian.org/devel/testing">
+<!ENTITY url-low-threshold-nmu "https://wiki.debian.org/LowThresholdNmu">
+<!ENTITY url-orphaned-not-qa "https://qa.debian.org/orphaned.html">
+<!ENTITY url-dehs "https://dehs.alioth.debian.org/">
+<!ENTITY url-buildd-p-a-s "https://anonscm.debian.org/cgit/mirror/packages-arch-specific.git/tree/Packages-arch-specific">
+
+<!-- deprecated -->
+
+<!ENTITY url-mentors "https://wiki.debian.org/DebianMentorsFaq">
+
+<!ENTITY url-dmup "https://&www-debian-org;/devel/dmup">
+<!ENTITY url-worldmap "https://&www-debian-org;/devel/developers.loc">
+
+<!ENTITY url-eg-desc-upstream-info "https://&packages-host;/unstable/web/wml">
+
+<!ENTITY url-alioth "https://alioth.debian.org/">
+<!ENTITY url-alioth-pkg "https://wiki.debian.org/Alioth/PackagingProject">
+<!ENTITY url-alioth-wiki "https://wiki.debian.org/Alioth">
+<!ENTITY url-alioth-faq "https://wiki.debian.org/Alioth/FAQ">
+
+<!-- 
+     URLs, non-debian
+  -->
+<!ENTITY url-gnu-manifesto "https://www.gnu.org/gnu/manifesto.html">
+<!ENTITY url-gpl "https://www.gnu.org/copyleft/gpl.html">
+<!ENTITY url-pgp-faq "http://www.cam.ac.uk.pgp.net/pgpnet/pgp-faq/">
+<!ENTITY url-rfc2440 "https://www.rfc-editor.org/rfc/rfc2440.txt">
+<!ENTITY url-openprojects "https://www.freenode.net/">
+<!ENTITY url-oftc "http://www.oftc.net/oftc/">
+<!ENTITY url-l10n-tp "https://translationproject.org/html/welcome.html">
+<!ENTITY url-l10n-gnome "https://wiki.gnome.org/TranslationProject">
+<!ENTITY url-l10n-kde "http://i18n.kde.org/">
+
+<!-- Debian email addresses -->
+<!ENTITY email-listmaster "<email>listmaster@&lists-host;</email>">
+<!ENTITY email-devel-ref "<email>developers-reference@&packages-host;</email>">
+<!ENTITY email-debian-account-manager "<email>da-manager@debian.org</email>">
+<!ENTITY email-debian-changes "<email>debian-changes@lists.debian.org</email>">
+<!ENTITY email-debian-devel "<email>debian-devel@&lists-host;</email>">
+<!ENTITY email-debian-devel-announce "<email>debian-devel-announce@&lists-host;</email>">
+<!ENTITY email-debian-devel-changes "<email>debian-devel-changes@lists.debian.org</email>">
+<!ENTITY email-debian-devel-req "<email>debian-devel-REQUEST@&lists-host;</email>">
+<!ENTITY email-debian-experimental-changes "<email>debian-experimental-changes@&lists-host;</email>">
+<!ENTITY email-debian-i18n "<email>debian-i18n@&lists-host;</email>">
+<!ENTITY email-debian-mentors "<email>debian-mentors@&lists-host;</email>">
+<!ENTITY email-debian-private "<email>debian-private@&lists-host;</email>">
+<!ENTITY email-debian-project "<email>debian-project@&lists-host;</email>">
+<!ENTITY email-debian-policy "<email>debian-policy@&lists-host;</email>">
+<!ENTITY orphan-address "&lt;packages@qa.debian.org&gt;">
+<!ENTITY email-debian-qa "<email>debian-qa@&lists-host;</email>">
+<!ENTITY email-debian-release "<email>debian-release@&lists-host;</email>">
+<!ENTITY email-debian-email "<email>debian-email@&lists-host;</email>">
+<!ENTITY email-debian-vote "<email>debian-vote@&lists-host;</email>">
+<!ENTITY email-debian-security-announce "<email>debian-security-announce@&lists-host;</email>">
+<!ENTITY email-debian-l10n-english "<email>debian-l10n-english@&lists-host;</email>">
+<!ENTITY email-mia "<email>mia@qa.debian.org</email>">
+<!ENTITY email-keyring "<email>keyring@rt.debian.org</email>">
+<!ENTITY email-rt-dsa "<email>admin@rt.debian.org</email>">
+<!ENTITY email-ftpmaster "<email>ftpmaster@debian.org</email>">
+<!ENTITY email-bts-control "<email>control@&bugs-host;</email>">
+<!ENTITY email-security-team "<email>team@security.debian.org</email>">
+<!ENTITY email-nonfree-release "<email>nonfree@release.debian.org</email>">
+
+<!-- misc Debian info -->
+<!ENTITY file-bts-docs "<filename>/usr/share/doc/debian/bug-*</filename>">
+<!ENTITY file-python-policy "<filename>/usr/share/doc/python/python-policy.txt.gz</filename>">
+<!ENTITY file-ocaml-policy "<filename>/usr/share/doc/ocaml/ocaml_packaging_policy.gz</filename>">
+<!ENTITY file-lisp-controller "<filename>/usr/share/doc/common-lisp-controller/README.packaging</filename>">
+<!ENTITY file-debian-private-archive "~debian/archive/debian-private/">
+<!ENTITY file-debian-private-key "~debian/misc/irc-password">
+<!ENTITY file-debian-rt-password "~debian/misc/rt-password">
+<!ENTITY file-bpp-autotools "<filename>/usr/share/doc/autotools-dev/README.Debian.gz</filename>">
+
+<!ENTITY cron-bug-report '0 17 * * fri   echo "index maint <replaceable>address</replaceable>" | mail request@&bugs-host;'>
+
+<!--
+     misc, non-debian
+  -->
+<!ENTITY pgp-keyserv "<literal>subkeys.pgp.net</literal>">
+
+<!ENTITY sample-dist-dirtree "<screen>dists/stable/main/
+dists/stable/main/binary-amd64/
+dists/stable/main/binary-armel/
+dists/stable/main/binary-i386/
+     ...
+dists/stable/main/source/
+     ...
+dists/stable/main/disks-amd64/
+dists/stable/main/disks-armel/
+dists/stable/main/disks-i386/
+     ...
+
+dists/stable/contrib/
+dists/stable/contrib/binary-amd64/
+dists/stable/contrib/binary-armel/
+dists/stable/contrib/binary-i386/
+     ...
+dists/stable/contrib/source/
+
+dists/stable/non-free/
+dists/stable/non-free/binary-amd64/
+dists/stable/non-free/binary-armel/
+dists/stable/non-free/binary-i386/
+     ...
+dists/stable/non-free/source/
+
+dists/testing/
+dists/testing/main/
+     ...
+dists/testing/contrib/
+     ...
+dists/testing/non-free/
+     ...
+
+dists/unstable
+dists/unstable/main/
+     ...
+dists/unstable/contrib/
+     ...
+dists/unstable/non-free/
+     ...
+
+pool/
+pool/main/a/
+pool/main/a/apt/
+     ...
+pool/main/b/
+pool/main/b/bash/
+     ...
+pool/main/liba/
+pool/main/liba/libalias-perl/
+     ...
+pool/main/m/
+pool/main/m/mailx/
+     ...
+pool/non-free/f/
+pool/non-free/f/firmware-nonfree/
+     ...</screen>">
+
+<!ENTITY example-uu "<programlisting>uuencode-file:
+    perl -ne 'print(pack &quot;u&quot;, $$_);' $(file) &gt; $(file).uuencoded
+
+uudecode-file:
+    perl -ne 'print(unpack &quot;u&quot;, $$_);' $(file).uuencoded &gt; $(file)</programlisting>">
+
+<!ENTITY example-pathfind '<programlisting>pathfind() {
+    OLDIFS="$IFS"
+    IFS=:
+    for p in $PATH; do
+        if [ -x "$p/$*" ]; then
+            IFS="$OLDIFS"
+            return 0
+        fi
+    done
+    IFS="$OLDIFS"
+    return 1
+}</programlisting>'>

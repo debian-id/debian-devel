@@ -1,0 +1,115 @@
+Source: developers-reference
+Section: doc
+Priority: optional
+Maintainer: Developers Reference Maintainers <debian-policy@lists.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>, Marc 'HE' Brockschmidt <he@debian.org>,
+           Hideki Yamane <henrich@debian.org>,
+Standards-Version: 3.9.8
+Build-Depends-Indep: docbook-xsl (>= 1.71.0), dblatex (>= 0.2), xsltproc, libxml2-utils, po4a, w3m,
+ fonts-ipafont-gothic, fonts-ipafont-mincho, gsfonts, lmodern, tipa,
+ texlive-lang-cyrillic, texlive-lang-french, texlive-lang-german, texlive-xetex,
+ texlive-lang-italian,
+ xmlto, zip
+Build-Depends: debhelper (>= 8), dpkg-dev (>= 1.16.1~)
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/developers-reference.git
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/developers-reference.git
+
+Package: developers-reference
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: debian-policy
+Suggests: doc-base
+Description: guidelines and information for Debian developers
+ This package contains the Debian Developer's Reference, a set of
+ guidelines and best practices which has been established by and for
+ the community of Debian developers.  If you are not a Debian
+ developer, you probably do not need this package.
+ .
+ Table of Contents:
+ .
+ ${TOC:en}
+ .
+ This package contains the English version of the Developer's
+ Reference.  The French, German, Italy, Russian and Japanese translations are
+ available in developers-reference-fr, developers-reference-de,
+ developers-reference-it, developers-reference-ru and developers-reference-ja.
+
+Package: developers-reference-de
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: debian-policy
+Suggests: doc-base
+Description: guidelines and information for Debian developers, in German
+ This package contains the German translation of Debian Developer's
+ Reference (package: developers-reference), a set of guidelines and
+ best practices which has been established by and for the community of
+ Debian developers.  If you are not a Debian developer, you probably
+ do not need this package.
+ .
+ Table of Contents (in English):
+ .
+ ${TOC:en}
+
+Package: developers-reference-fr
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: debian-policy
+Suggests: doc-base
+Description: guidelines and information for Debian developers, in French
+ This package contains the French translation of Debian Developer's
+ Reference (package: developers-reference), a set of guidelines and
+ best practices which has been established by and for the community of
+ Debian developers.  If you are not a Debian developer, you probably
+ do not need this package.
+ .
+ Table of Contents (in English):
+ .
+ ${TOC:en}
+
+Package: developers-reference-ja
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: debian-policy
+Suggests: doc-base
+Description: guidelines and information for Debian developers, in Japanese
+ This package contains the Japanese translation of Debian Developer's
+ Reference (package: developers-reference), a set of guidelines and
+ best practices which has been established by and for the community of
+ Debian developers.  If you are not a Debian developer, you probably
+ do not need this package.
+ .
+ Table of Contents (in English):
+ .
+ ${TOC:en}
+
+Package: developers-reference-ru
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: debian-policy
+Suggests: doc-base
+Description: guidelines and information for Debian developers, in Russian
+ This package contains the Russian translation of Debian Developer's
+ Reference (package: developers-reference), a set of guidelines and
+ best practices which has been established by and for the community of
+ Debian developers.  If you are not a Debian developer, you probably
+ do not need this package.
+ .
+ Table of Contents (in English):
+ .
+ ${TOC:en}
+
+Package: developers-reference-it
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: debian-policy
+Suggests: doc-base
+Description: guidelines and information for Debian developers, in Italian
+ This package contains the Italian translation of Debian Developer's
+ Reference (package: developers-reference), a set of guidelines and
+ best practices which has been established by and for the community of
+ Debian developers.  If you are not a Debian developer, you probably
+ do not need this package.
+ .
+ Table of Contents (in English):
+ .
+ ${TOC:en}

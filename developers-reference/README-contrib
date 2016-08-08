@@ -1,0 +1,82 @@
+* Useful Makefile targets
+
+The following 'make' targets exist for your convenience:
+
+  make validate
+        validate the well-formedness of all XML materials
+
+  make or make all (optional: VERSION=x.y.z PUBDATE=2007-07-01)
+        build all languages in all formats
+
+  make index.html
+        build the English manual in HTML format
+
+  make fr/developers-reference.pdf
+        build the French manual in PDF format
+
+  make ja/developers-reference.txt
+        build the Japanese manual in text format
+
+  make pot
+        generate .pot files from .dbk sources
+
+  make updatepo LINGUA=xx (with xx=language code)
+        update .po files for language xx
+
+
+* Contacting
+
+To contain the maintainers of this package, email
+<developers-reference@packages.debian.org>.
+
+
+* Contributing
+
+If you want to contribute to the Developer's Reference, it's best to
+first submit a few patches as bug reports.  Writing patches for
+existing bugs are also always appreciated.  You may wish to make
+patches against the Git sources, about which see below.
+
+When making changes, please try to use short lines of text (< 64
+characters). This makes it easier to use 'diff' to see the
+differences. (See discussion in <https://bugs.debian.org/278267>)
+
+Do not commit patches to the developers reference yourself unless
+authorized to do so. Patches need to be finalized and common opinion
+before they are applied.
+
+
+* Writing style
+
+Please use gender-neutral formulations. This means avoiding
+pronouns like he/she when referring to a role (like "maintainer")
+whose gender is unknown. Instead of you should use the
+plural form (singular they [1]).
+
+[1] https://en.wikipedia.org/wiki/Singular_they
+
+
+* Git
+
+This manual is a part of the Debian Documentation Project (DDP)
+and its source is managed in a Git repository in the collab-maint
+area on Alioth, see <https://wiki.debian.org/Teams/CollabMaint>.
+
+If you just want to check out the current Git version of this
+manual to create patches against, you can use the command to do so:
+
+git clone git://anonscm.debian.org/collab-maint/developers-reference.git
+
+For write access (automatic for all Debian Developers):
+
+git clone git+ssh://git.debian.org/git/collab-maint/developers-reference.git
+
+
+* Translators
+
+We have tried to keep language-independant bits of text in common.ent.
+Feel free to truck stuff out of the English manual into common.ent if
+it's useful, or else report the problem.
+
+The translation PO files are in po4a/po/, we hope very much for more
+translations.
